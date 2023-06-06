@@ -16,9 +16,9 @@ public class IdadeMaiorMenor {
             System.out.println("informe a idade correspondente: ");
             idade = sc.nextInt();
             idades.add(idade );
-            if (min < idade){
+            if (min > idade){
                 min = idade;
-            }else if(max > idade){
+            }else if(max < idade){
                 max = idade;
             }
         }
